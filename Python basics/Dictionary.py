@@ -25,12 +25,19 @@ dict1={1:"fruits", 2:"vegetables",3:"snacks", 4:"deserts"}
 #print(dict1)
 #print(dict1.popitem())
 #print(dict1)
-#dict1.update({5:"salad"})
+#dict1={1:"fruits", 2:"vegetables",3:"snacks", 4:"deserts"}
+#dict1.update(4='salad')
+print(dict1)
 #dict1.update({1:"cookies"})
 #print(dict1)
-#dict1.update(5:"salad") #---------Not working, chk with Teja
-#dict1.update(1='cookies')   #---------Not working, chk with Teja, It worked in his machine.
+
+#dict1.update(5:"salad") ---------Not working, chk with Teja, It worked in his machine.
+#dict1.update(1='cookies')  ------------#Ans: will work only for characters/variables, as below.
 #dict1.update(4,'cake')
+
+#dict1.update(a:"salad")
+#dict1.update(b='cookies')
+#dict1.update(c,'cake')
 
 dict2={}
 list1=[1,2,3]
